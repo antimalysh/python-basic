@@ -1,6 +1,5 @@
 from abc import ABC
 from homework_02.exceptions import LowFuelError, NotEnoughFuel
-# from homework_02.exceptions import NotEnoughFuel
 
 class Vehicle(ABC):
     def __init__(self, weight=1000, fuel=30, fuel_consumption=10, started=False):
